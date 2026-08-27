@@ -19,7 +19,7 @@ on:
         required: false
         type: string
       TEST:
-        description: '仅输出配置文件，不编译固件。'
+        description: "仅输出配置文件，不编译固件。"
         default: false
         required: false
         type: boolean
@@ -35,7 +35,7 @@ jobs:
       fail-fast: false
       #max-parallel: 3
       matrix:
-        CONFIG: [ROCKCHIP, X86]
+        CONFIG: [X86]
         SOURCE: [VIKINGYFY/immortalwrt]
         BRANCH: [owrt]
 
